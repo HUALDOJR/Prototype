@@ -16,8 +16,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 API_URL = 'https://cluster.apigratis.com/api/v2/whatsapp/sendFile64'
-DEVICE_TOKEN = '0979f2e2-03e9-404f-b980-0d5435d35f0a'
-AUTH_TOKEN = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwcC5hcGlicmFzaWwuaW8vYXV0aC9yZWdpc3RlciIsImlhdCI6MTcyNTA2NTI0NCwiZXhwIjoxNzU2NjAxMjQ0LCJuYmYiOjE3MjUwNjUyNDQsImp0aSI6IkQ4STJ5eUlxdmxLbDhFZFQiLCJzdWIiOiIxMTA5MyIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.KQ4b2kiC0dLUg3kiZxFv414msKSUUgOuHEsQcJkSX3E'
+DEVICE_TOKEN = 'SEU DEVICE TOKEN'
+AUTH_TOKEN = 'Bearer SEUTOKEN'
 
 def read_phone_numbers(file_path: str) -> List[str]:
     try:
